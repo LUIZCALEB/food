@@ -1,0 +1,187 @@
+/* General Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+
+}
+
+
+nav {
+    background-color: red;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 70px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: greenyellow;
+}
+
+
+.hero {
+    height: 600px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 80, 150, 0.6)
+        ),
+        url("images/tech-bg.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* Join Us Button */
+
+.button {
+    display: inline-block;
+
+    background-color: #0ea5e9;
+    color: white;
+
+    padding: 12px 30px;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0284c7;
+}
+
+
+/* About Section */
+
+.about {
+    padding: 80px 60px;
+
+    text-align: center;
+
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+
+    margin: 10px auto;
+
+    font-size: 18px;
+}
+
+
+/* Services Section */
+
+.services {
+    padding: 80px 60px;
+
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+.service-box {
+    width: 300px;
+
+    padding: 30px;
+
+    background-color: #f1f5f9;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+    color: #0284c7;
+
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    font-size: 16px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #111827;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
